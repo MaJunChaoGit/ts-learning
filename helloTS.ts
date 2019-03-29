@@ -38,8 +38,9 @@ interface Animal {
   readonly name: string;
 }
 
-let tiger: Animal = {
-  name: ''
+let bar: Animal = {
+  name: 'zz'
 }
 
-tiger.name == '渣渣';
+bar.name = '渣渣';
+

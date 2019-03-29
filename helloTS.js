@@ -18,7 +18,12 @@ var tom = {
     name: 'Tom',
     age: 123
 };
-var tiger = {
-    name: ''
+var bar = {
+    name: 'zz'
 };
-tiger.name == '渣渣';
+bar.name = '渣渣';
+var point = {
+    x: 1,
+    y: 2
+};
+point.y = 3;
